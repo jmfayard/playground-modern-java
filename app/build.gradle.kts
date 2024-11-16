@@ -28,7 +28,6 @@ dependencies {
     // Use JUnit Jupiter for testing.
     testImplementation("org.junit.jupiter:junit-jupiter:_")
     testImplementation("org.assertj:assertj-core:_")
-    testImplementation("pl.pragmatists:JUnitParams:1.1.1")
 
     // This dependency is used by the application.
     implementation("com.google.guava:guava:_")
