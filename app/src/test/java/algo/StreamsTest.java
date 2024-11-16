@@ -1,4 +1,4 @@
-package leetcode;
+package algo;
 
 import org.assertj.core.data.Offset;
 import org.junit.jupiter.api.Test;
