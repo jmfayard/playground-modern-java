@@ -1,4 +1,4 @@
-package algo;
+package katas;
 
 import org.junit.jupiter.api.Test;
 

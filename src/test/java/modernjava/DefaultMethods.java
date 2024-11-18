@@ -1,4 +1,4 @@
-package playground;
+package modernjava;
 
 @FunctionalInterface
 interface CollectionPrinter<T> {

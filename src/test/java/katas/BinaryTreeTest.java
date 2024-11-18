@@ -1,4 +1,4 @@
-package tree;
+package katas;
 
 import org.junit.jupiter.api.Test;
 
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 
 import static org.assertj.core.api.AssertionsForClassTypes.*;
-import static tree.BinaryTree.leaf;
+import static katas.BinaryTree.leaf;
 
 class BinaryTreeTest {
 

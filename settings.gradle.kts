@@ -12,5 +12,4 @@ plugins {
     id("de.fayard.refreshVersions") version "0.10.1"
 }
 
-rootProject.name = "java16-playground"
-include("app")
+rootProject.name = "playground-modern-java"

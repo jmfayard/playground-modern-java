@@ -1,4 +1,4 @@
-package playground;
+package modernjava;
 
 import java.time.Duration;
 import java.util.concurrent.Executors;

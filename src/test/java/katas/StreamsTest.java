@@ -1,4 +1,4 @@
-package algo;
+package katas;
 
 import org.assertj.core.data.Offset;
 import org.junit.jupiter.api.Test;

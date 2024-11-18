@@ -1,4 +1,4 @@
-package playground;
+package modernjava;
 
 import org.junit.jupiter.api.Test;
 

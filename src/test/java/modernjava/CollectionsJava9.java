@@ -1,8 +1,7 @@
-package playground;
+package modernjava;
 
 import static org.assertj.core.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-import kotlin.collections.MapsKt.*;
 
 import java.util.List;
 import java.util.Map;
