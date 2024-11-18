@@ -1,12 +1,38 @@
 # Playground for Modern Java
+Because life is too short for Java 8/11
 
-> Life is too short for Java 8
+## Requirements
 
-Playground project demonstrating the new features from Java 8 to Java 16
+Install via IntelliJ the latest Java SDK installed. As of 2024, it's Java 23
 
-See article: [Practice what's new in Java](https://dev.to/jmfayard/practice-what-s-new-in-java-1j09)
+## Usage
+`./gradlew test`
 
-Contributions welcome, [see open issues](https://github.com/jmfayard/java16-playground/issues)
 
-Reference: https://dev.to/awwsmm/20-reasons-to-move-on-from-java-8-1dio
+## What's inside ?
 
+Everything is located inside `src/test` so that the code is self-tested
+
+In the `test/main/modernjava` package:
+
+- Records
+- Lombok
+- Streams
+- var type inference
+- new Collections methods
+- Virtual Threads
+- Markdown comments
+- SmartCasts
+- Optionals
+- Default methods in interfaces
+- Pattern Matching for switch
+- Multiline strings
+- ...
+
+In the `test/main/katas`
+- binary trees
+- algorithms
+- ...
+
+In the `sql` folder
+- the schema and a seed for a library, allowing to practice SQL
