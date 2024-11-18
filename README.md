@@ -1,4 +1,4 @@
-# java16-playground
+# Playground for Modern Java
 
 > Life is too short for Java 8
 
