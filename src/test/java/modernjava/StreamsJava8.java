@@ -2,12 +2,15 @@ package modernjava;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
+import java.util.function.Function;
+import java.util.function.IntUnaryOperator;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import static java.lang.Integer.signum;
+import static java.util.stream.IntStream.iterate;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class StreamsJava8 {
@@ -52,5 +55,17 @@ public class StreamsJava8 {
                 new Person(40, "patrick"),
                 new Person(35, "MC")
         );
+    }
+
+    @Test
+    void intervals() {
+        IntUnaryOperator increment = (n) -> n + 1;
+        var stream = IntStream.iterate(0, increment)
+                .parallel()
+                .takeWhile((n) -> n < 10)
+                .sum();
+        assertThat(stream).isEqualTo(45);
+
+        assertThat("a").isGreaterThan("A");
     }
 }

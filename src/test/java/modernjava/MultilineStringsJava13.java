@@ -13,4 +13,12 @@ public class MultilineStringsJava13 {
                 """.stripIndent().trim();
         assertThat(greeting).isEqualTo("Hello\nHow are you?");
     }
+
+    @Test
+    void strip() {
+        var abc = "  hello   ";
+        assertThat(abc.strip()).isEqualTo("hello");
+        assertThat(abc.stripTrailing().stripLeading()).isEqualTo("hello");
+        
+    }
 }
